@@ -1,0 +1,37 @@
+{
+  "name": "snfansclub/navertv",
+  "description": "Add tv.naver.com videos in mediaembed",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.13"
+  },
+  "authors": [
+    {
+      "name": "snfansclub",
+      "email": "admin@snfans.club",
+      "homepage": "https://snfans.club"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "snfansclub\\navertv\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "NaverTV Embed",
+      "icon": {
+        "name": "fas fa-play",
+        "backgroundColor": "#18DF08",
+        "color": "#FFFFFF"
+      }
+    },
+    "flagrow": {
+      "discuss": "https://snfans.club"
+    }
+  }
+}
